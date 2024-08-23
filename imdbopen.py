@@ -77,5 +77,5 @@ def get_movie_details(imdb_id):
         print(f"Failed to retrieve data for IMDb ID {imdb_id}.")
 
 # Prompt the user to enter a specific IMDb ID
-imdb_id = 'tt1981115'
+imdb_id = input("Enter ID: ")
 get_movie_details(imdb_id)
